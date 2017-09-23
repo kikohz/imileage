@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162FDE531F769BD300F9C8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162FDE521F769BD300F9C8B7 /* AppDelegate.swift */; };
+		162FDE5A1F769BD300F9C8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162FDE591F769BD300F9C8B7 /* Assets.xcassets */; };
+		162FDE5D1F769BD300F9C8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162FDE5B1F769BD300F9C8B7 /* LaunchScreen.storyboard */; };
+		162FDE681F769BD400F9C8B7 /* iMileageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162FDE671F769BD400F9C8B7 /* iMileageTests.swift */; };
+		162FDE731F769BD400F9C8B7 /* iMileageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162FDE721F769BD400F9C8B7 /* iMileageUITests.swift */; };
+		162FDE851F76A3E600F9C8B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162FDE831F76A3E600F9C8B7 /* HomeViewController.swift */; };
+		162FDE861F76A3E600F9C8B7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162FDE841F76A3E600F9C8B7 /* HomeViewController.xib */; };
+		7457CA7577220554059D89DD /* Pods_iMileage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2216E84D80ADF4D7650DA5 /* Pods_iMileage.framework */; };
+		C53AE3E14BF35DFD54102439 /* Pods_iMileageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF533F41845161BD69636434 /* Pods_iMileageUITests.framework */; };
+		E3F75D0DFAD792E6470F0686 /* Pods_iMileageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71186DEFB07C3686A40C99 /* Pods_iMileageTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162FDE641F769BD400F9C8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162FDE471F769BD300F9C8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162FDE4E1F769BD300F9C8B7;
+			remoteInfo = iMileage;
+		};
+		162FDE6F1F769BD400F9C8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162FDE471F769BD300F9C8B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162FDE4E1F769BD300F9C8B7;
+			remoteInfo = iMileage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162FDE4F1F769BD300F9C8B7 /* iMileage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMileage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162FDE521F769BD300F9C8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		162FDE591F769BD300F9C8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162FDE5C1F769BD300F9C8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162FDE5E1F769BD300F9C8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162FDE631F769BD400F9C8B7 /* iMileageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMileageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162FDE671F769BD400F9C8B7 /* iMileageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileageTests.swift; sourceTree = "<group>"; };
+		162FDE691F769BD400F9C8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162FDE6E1F769BD400F9C8B7 /* iMileageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMileageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162FDE721F769BD400F9C8B7 /* iMileageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileageUITests.swift; sourceTree = "<group>"; };
+		162FDE741F769BD400F9C8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162FDE831F76A3E600F9C8B7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		162FDE841F76A3E600F9C8B7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		25565A8E093BFB53C26E623A /* Pods-iMileageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMileageTests/Pods-iMileageTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C0766C698A9AA8A30156434 /* Pods-iMileageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMileageUITests/Pods-iMileageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		523E2F8A46942893FB445D91 /* Pods-iMileageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMileageUITests/Pods-iMileageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B5D473771624166FAC81CAC /* Pods-iMileage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMileage/Pods-iMileage.debug.xcconfig"; sourceTree = "<group>"; };
+		6E2216E84D80ADF4D7650DA5 /* Pods_iMileage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMileage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB71186DEFB07C3686A40C99 /* Pods_iMileageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMileageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74D6442307D2D3434551ABB /* Pods-iMileage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileage.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMileage/Pods-iMileage.release.xcconfig"; sourceTree = "<group>"; };
+		BF533F41845161BD69636434 /* Pods_iMileageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMileageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB160A89E42D32CE0AC749BF /* Pods-iMileageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMileageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMileageTests/Pods-iMileageTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162FDE4C1F769BD300F9C8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7457CA7577220554059D89DD /* Pods_iMileage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE601F769BD400F9C8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F75D0DFAD792E6470F0686 /* Pods_iMileageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE6B1F769BD400F9C8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53AE3E14BF35DFD54102439 /* Pods_iMileageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026DA753F9B4269E3A650907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2216E84D80ADF4D7650DA5 /* Pods_iMileage.framework */,
+				AB71186DEFB07C3686A40C99 /* Pods_iMileageTests.framework */,
+				BF533F41845161BD69636434 /* Pods_iMileageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		162FDE461F769BD300F9C8B7 = {
+			isa = PBXGroup;
+			children = (
+				162FDE511F769BD300F9C8B7 /* iMileage */,
+				162FDE661F769BD400F9C8B7 /* iMileageTests */,
+				162FDE711F769BD400F9C8B7 /* iMileageUITests */,
+				162FDE501F769BD300F9C8B7 /* Products */,
+				271C70936C7ED789631E8816 /* Pods */,
+				026DA753F9B4269E3A650907 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		162FDE501F769BD300F9C8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162FDE4F1F769BD300F9C8B7 /* iMileage.app */,
+				162FDE631F769BD400F9C8B7 /* iMileageTests.xctest */,
+				162FDE6E1F769BD400F9C8B7 /* iMileageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162FDE511F769BD300F9C8B7 /* iMileage */ = {
+			isa = PBXGroup;
+			children = (
+				162FDE821F76A3D200F9C8B7 /* Home */,
+				162FDE521F769BD300F9C8B7 /* AppDelegate.swift */,
+				162FDE591F769BD300F9C8B7 /* Assets.xcassets */,
+				162FDE5B1F769BD300F9C8B7 /* LaunchScreen.storyboard */,
+				162FDE5E1F769BD300F9C8B7 /* Info.plist */,
+			);
+			path = iMileage;
+			sourceTree = "<group>";
+		};
+		162FDE661F769BD400F9C8B7 /* iMileageTests */ = {
+			isa = PBXGroup;
+			children = (
+				162FDE671F769BD400F9C8B7 /* iMileageTests.swift */,
+				162FDE691F769BD400F9C8B7 /* Info.plist */,
+			);
+			path = iMileageTests;
+			sourceTree = "<group>";
+		};
+		162FDE711F769BD400F9C8B7 /* iMileageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162FDE721F769BD400F9C8B7 /* iMileageUITests.swift */,
+				162FDE741F769BD400F9C8B7 /* Info.plist */,
+			);
+			path = iMileageUITests;
+			sourceTree = "<group>";
+		};
+		162FDE821F76A3D200F9C8B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				162FDE831F76A3E600F9C8B7 /* HomeViewController.swift */,
+				162FDE841F76A3E600F9C8B7 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		271C70936C7ED789631E8816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D473771624166FAC81CAC /* Pods-iMileage.debug.xcconfig */,
+				B74D6442307D2D3434551ABB /* Pods-iMileage.release.xcconfig */,
+				EB160A89E42D32CE0AC749BF /* Pods-iMileageTests.debug.xcconfig */,
+				25565A8E093BFB53C26E623A /* Pods-iMileageTests.release.xcconfig */,
+				4C0766C698A9AA8A30156434 /* Pods-iMileageUITests.debug.xcconfig */,
+				523E2F8A46942893FB445D91 /* Pods-iMileageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162FDE4E1F769BD300F9C8B7 /* iMileage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162FDE771F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileage" */;
+			buildPhases = (
+				47E92D190B92A71074C9FDD5 /* [CP] Check Pods Manifest.lock */,
+				162FDE4B1F769BD300F9C8B7 /* Sources */,
+				162FDE4C1F769BD300F9C8B7 /* Frameworks */,
+				162FDE4D1F769BD300F9C8B7 /* Resources */,
+				C150A12F68B31B973DBC999C /* [CP] Embed Pods Frameworks */,
+				8C5CAF8C940AB082812B54AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMileage;
+			productName = iMileage;
+			productReference = 162FDE4F1F769BD300F9C8B7 /* iMileage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162FDE621F769BD400F9C8B7 /* iMileageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162FDE7A1F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileageTests" */;
+			buildPhases = (
+				9A7D6BBD7BD8B70E53ED52E6 /* [CP] Check Pods Manifest.lock */,
+				162FDE5F1F769BD400F9C8B7 /* Sources */,
+				162FDE601F769BD400F9C8B7 /* Frameworks */,
+				162FDE611F769BD400F9C8B7 /* Resources */,
+				BA76073A170A2D3B0B0BD83A /* [CP] Embed Pods Frameworks */,
+				71525C866D7FFEB495CFF0CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162FDE651F769BD400F9C8B7 /* PBXTargetDependency */,
+			);
+			name = iMileageTests;
+			productName = iMileageTests;
+			productReference = 162FDE631F769BD400F9C8B7 /* iMileageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162FDE6D1F769BD400F9C8B7 /* iMileageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162FDE7D1F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileageUITests" */;
+			buildPhases = (
+				8FB0C22EF4619DB469289F10 /* [CP] Check Pods Manifest.lock */,
+				162FDE6A1F769BD400F9C8B7 /* Sources */,
+				162FDE6B1F769BD400F9C8B7 /* Frameworks */,
+				162FDE6C1F769BD400F9C8B7 /* Resources */,
+				19606B7C1A837FD5FA35E235 /* [CP] Embed Pods Frameworks */,
+				8FF1A7676DF255A61656F8A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162FDE701F769BD400F9C8B7 /* PBXTargetDependency */,
+			);
+			name = iMileageUITests;
+			productName = iMileageUITests;
+			productReference = 162FDE6E1F769BD400F9C8B7 /* iMileageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162FDE471F769BD300F9C8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "wang xi";
+				TargetAttributes = {
+					162FDE4E1F769BD300F9C8B7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					162FDE621F769BD400F9C8B7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 162FDE4E1F769BD300F9C8B7;
+					};
+					162FDE6D1F769BD400F9C8B7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 162FDE4E1F769BD300F9C8B7;
+					};
+				};
+			};
+			buildConfigurationList = 162FDE4A1F769BD300F9C8B7 /* Build configuration list for PBXProject "iMileage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162FDE461F769BD300F9C8B7;
+			productRefGroup = 162FDE501F769BD300F9C8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162FDE4E1F769BD300F9C8B7 /* iMileage */,
+				162FDE621F769BD400F9C8B7 /* iMileageTests */,
+				162FDE6D1F769BD400F9C8B7 /* iMileageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162FDE4D1F769BD300F9C8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162FDE5D1F769BD300F9C8B7 /* LaunchScreen.storyboard in Resources */,
+				162FDE5A1F769BD300F9C8B7 /* Assets.xcassets in Resources */,
+				162FDE861F76A3E600F9C8B7 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE611F769BD400F9C8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE6C1F769BD400F9C8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19606B7C1A837FD5FA35E235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileageUITests/Pods-iMileageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E92D190B92A71074C9FDD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMileage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71525C866D7FFEB495CFF0CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileageTests/Pods-iMileageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5CAF8C940AB082812B54AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileage/Pods-iMileage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB0C22EF4619DB469289F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMileageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF1A7676DF255A61656F8A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileageUITests/Pods-iMileageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7D6BBD7BD8B70E53ED52E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMileageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA76073A170A2D3B0B0BD83A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileageTests/Pods-iMileageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C150A12F68B31B973DBC999C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMileage/Pods-iMileage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMileage/Pods-iMileage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162FDE4B1F769BD300F9C8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162FDE531F769BD300F9C8B7 /* AppDelegate.swift in Sources */,
+				162FDE851F76A3E600F9C8B7 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE5F1F769BD400F9C8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162FDE681F769BD400F9C8B7 /* iMileageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162FDE6A1F769BD400F9C8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162FDE731F769BD400F9C8B7 /* iMileageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162FDE651F769BD400F9C8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162FDE4E1F769BD300F9C8B7 /* iMileage */;
+			targetProxy = 162FDE641F769BD400F9C8B7 /* PBXContainerItemProxy */;
+		};
+		162FDE701F769BD400F9C8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162FDE4E1F769BD300F9C8B7 /* iMileage */;
+			targetProxy = 162FDE6F1F769BD400F9C8B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		162FDE5B1F769BD300F9C8B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162FDE5C1F769BD300F9C8B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162FDE751F769BD400F9C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162FDE761F769BD400F9C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162FDE781F769BD400F9C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5D473771624166FAC81CAC /* Pods-iMileage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9K847WZCW;
+				INFOPLIST_FILE = iMileage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.iMileage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		162FDE791F769BD400F9C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74D6442307D2D3434551ABB /* Pods-iMileage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9K847WZCW;
+				INFOPLIST_FILE = iMileage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.iMileage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		162FDE7B1F769BD400F9C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB160A89E42D32CE0AC749BF /* Pods-iMileageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMileageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.imileage.iMileageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMileage.app/iMileage";
+			};
+			name = Debug;
+		};
+		162FDE7C1F769BD400F9C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25565A8E093BFB53C26E623A /* Pods-iMileageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMileageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.imileage.iMileageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMileage.app/iMileage";
+			};
+			name = Release;
+		};
+		162FDE7E1F769BD400F9C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0766C698A9AA8A30156434 /* Pods-iMileageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMileageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.imileage.iMileageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMileage;
+			};
+			name = Debug;
+		};
+		162FDE7F1F769BD400F9C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523E2F8A46942893FB445D91 /* Pods-iMileageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMileageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bllgo.imileage.iMileageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMileage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162FDE4A1F769BD300F9C8B7 /* Build configuration list for PBXProject "iMileage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162FDE751F769BD400F9C8B7 /* Debug */,
+				162FDE761F769BD400F9C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162FDE771F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162FDE781F769BD400F9C8B7 /* Debug */,
+				162FDE791F769BD400F9C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162FDE7A1F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162FDE7B1F769BD400F9C8B7 /* Debug */,
+				162FDE7C1F769BD400F9C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162FDE7D1F769BD400F9C8B7 /* Build configuration list for PBXNativeTarget "iMileageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162FDE7E1F769BD400F9C8B7 /* Debug */,
+				162FDE7F1F769BD400F9C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162FDE471F769BD300F9C8B7 /* Project object */;
+}
