@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class HomeViewController: UIViewController {
 
@@ -31,6 +32,10 @@ class HomeViewController: UIViewController {
         
     }
 
+    @IBAction func selectAir(_ sender: Any) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
